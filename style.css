@@ -27,6 +27,7 @@
 /* Upper nav ends */
 header {
   display: flex;
+  flex-wrap: wrap;
   /* width: 100vw; */
   justify-content: space-around;
   align-items: center;
@@ -65,7 +66,7 @@ header {
 }
 
 /* call  */
-.fa-solid {
+.call-items i {
   color: #ffd000;
 }
 .call-area {
@@ -86,6 +87,7 @@ header {
 #hero {
   display: flex;
   background: linear-gradient(90deg, #cfd4de 0%, #ececec 52%, #d6dff1 100%);
+  /* flex-wrap: wrap; */
 }
 
 .half-width {
@@ -120,4 +122,29 @@ header {
  
 }
 
+/* process */
 
+#process{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    padding: 1%;
+    border: 1px solid rgb(151, 148, 148);
+    flex-wrap: wrap;
+}
+
+.process-item{
+    padding: 1%;
+}
+.process-item p span{
+    
+    font-weight: 400;
+    color: rgb(124, 122, 122);
+}
+
+.fa-solid{
+    margin: 1%;
+    font-size: 30px;
+    color: #1d3557;
+}
